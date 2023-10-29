@@ -3,6 +3,8 @@ package br.com.cz.hotel.Model;
 import br.com.cz.hotel.Interface.IExibeInfo;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 public abstract class Hotel implements IExibeInfo {
     public String nome;
